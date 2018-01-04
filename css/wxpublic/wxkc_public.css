@@ -1,0 +1,73 @@
+.wx_kc {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding-top: 0.4rem;
+}
+.wx_kc .kc_item {
+  float: left;
+  width: 6.6rem;
+  height: 5.96rem;
+  margin-left: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.wx_kc .kc_item a {
+  display: block;
+}
+.wx_kc .kc_item a .kc_img {
+  width: 6.6rem;
+  height: 4.08rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  background: #F1F1F1;
+}
+.wx_kc .kc_item a .kc_img img {
+  width: 6.6rem;
+  height: 4.08rem;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+}
+.wx_kc .kc_item a .kc_xq {
+  width: 100%;
+  height: 1.88rem;
+}
+.wx_kc .kc_item a .kc_xq h5 {
+  width: 100%;
+  height: 1rem;
+  padding: 0.2rem 0.2rem 0;
+  font-weight: normal;
+  font-size: 0.56rem;
+  color: #333;
+}
+.wx_kc .kc_item a .kc_xq .kc_pic {
+  width: 100%;
+  height: 0.88rem;
+  padding-top: 0.2rem;
+}
+.wx_kc .kc_item a .kc_xq .kc_pic p {
+  float: left;
+  height: 0.68rem;
+  padding: 0 0.2rem;
+}
+.wx_kc .kc_item a .kc_xq .kc_pic p span {
+  float: left;
+  padding: 0.06rem 0;
+}
+.wx_kc .kc_item a .kc_xq .kc_pic p span img {
+  width: 0.6rem;
+  height: 0.56rem;
+}
+.wx_kc .kc_item a .kc_xq .kc_pic p em {
+  float: left;
+  padding: 0 0.2rem;
+  font-size: 0.48rem;
+  color: #888;
+}
+.wx_kc .kc_item a .kc_xq .kc_pic strong {
+  float: right;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding: 0 0.2rem;
+  font-size: 0.48rem;
+  color: #888;
+}

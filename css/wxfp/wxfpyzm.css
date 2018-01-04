@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  height: 100%;
+  background: #e9e9e9;
+  padding-top: 1.4rem;
+}
+form {
+  width: 15rem;
+}
+form .my_yzm {
+  width: 15rem;
+  height: auto;
+}
+form .my_yzm .rows {
+  width: 15rem;
+  height: 1.76rem;
+  background: #fff;
+  padding: 0 0.6rem;
+}
+form .my_yzm .rows input {
+  float: left;
+  width: 80%;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  padding-left: 0.2rem;
+  color: #B2B2B2;
+  font-size: 0.68rem;
+  border: none;
+  outline: none;
+}
+form .my_yzm .rows i {
+  float: right;
+  width: 0.64rem;
+  height: 0.64rem;
+  background-size: 0.64rem 0.64rem;
+  -webkit-background-size: 0.64rem 0.64rem;
+  background-image: url(../../img/icon/yzmicon.png);
+  margin-top: 0.6rem;
+}
+form .my_yzm p {
+  width: 15rem;
+  height: auto;
+  padding: 0.2rem 0.8rem;
+  line-height: 0.8rem;
+  color: #B2B2B2;
+  font-size: 0.56rem;
+}
+form .yzm_btn {
+  width: 13.4rem;
+  height: 1.88rem;
+  line-height: 1.8rem;
+  background: #D21313;
+  border: 0.04rem solid rgba(5, 5, 5, 0.08);
+  border-radius: 0.2rem;
+  margin: 0.76rem 0;
+  margin-left: 0.8rem;
+  font-size: 0.72rem;
+  color: #fff;
+  text-align: center;
+  -webkit-appearance: none;
+}
+#error {
+  width: 13.4rem;
+  height: 0.8rem;
+  color: #D21313;
+  font-size: 0.56rem;
+  margin: 0 auto;
+}

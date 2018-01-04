@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>手提课</title>
+<meta http-equiv="content-type" content="text/htm" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../css/wxpublic/wxpublic.css"/>
+<link rel="stylesheet" type="text/css" href="../css/wxmember.css"/>
+</head>
+<body>
+<div class="wx_wrap">
+	<div class="banner_img">
+		<div class="pic">
+			<img src="../img/banner/member.png"/>
+		</div>
+	</div>
+	<div class="person_vip">
+		<h3>VIP特权</h3>
+		<div class="vip_xq">
+			<dl>
+				<dt>
+					<img src="../img/icon/copy01.png"/>
+				</dt>
+				<dd>课外知识</dd>
+			</dl>
+			<dl>
+				<dt>
+					<img src="../img/icon/copy02.png"/>
+				</dt>
+				<dd>英语数学同步精讲</dd>
+			</dl>
+			<dl>
+				<dt>
+					<img src="../img/icon/copy03.png"/>
+				</dt>
+				<dd>素质课程</dd>
+			</dl>
+		</div>
+	</div>
+	
+	<div class="vip_time">
+		<ul class="vip_list">
+			<li class="vipitem" value="1">
+				<a href="javascript:;">
+					<i class="vipcheck"></i>
+					<span class="">1个月</span>
+					<em>￥99</em>
+				</a>
+			</li>
+			<li class="vipitem" value="2">
+				<a href="javascript:;">
+					<i class="vipcheck"></i>
+					<span class="">3个月</span>
+					<em>￥199</em>
+				</a>
+				
+			</li>
+			<li class="vipitem last_vip" value="3">
+				<a href="javascript:;">
+					<i class="vipcheck"></i>
+					<span class="">6个月</span>
+					<em>￥299</em>
+					<p>赠送诗词课程和记忆力课程</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="joinvip">
+		<p class="vip_btn" data-onoff="true"><a href="javascript:;" style="display: block;color: #fff;">立即加入会员</a></p>
+	</div>
+
+    
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../jscript/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="../js/wxpublic.js"></script>
+<script type="text/javascript" src="../js/wxmember.js"></script>
+<script type="text/javascript">
+var jssec = 3;
+$('.vip_btn').on('touchstart',function(){
+	
+	console.log($(this).attr("data-onoff"));
+	if ("false" == $(this).attr("data-onoff")) {
+        return false;
+    }
+	var vippic = $('.vip_active').find('em').html().replace(/\D|^0/g,'');
+	var num = $('.vip_active').attr('value');
+    changes();
+    console.log(vippic);
+	//<%=path%>/MainServletfuzhi?vipso=vip&pric=99&check=1
+//  window.location.href='<%=path%>/MainServletfuzhi?vipso=vip&pric='+vippic+'&check='+num;
+//  $(this).children().attr('href','<%=path%>/MainServletfuzhi?vipso=vip&pric='+vippic+'&check='+num);
+});
+	
+	
+function changes() {
+	
+	//如果过了3秒后 按钮的disabled为 true  即可再点 否则 为false 不能再点 然后移出输入验证码栏的 disabled 可以输入
+    jssec--;
+    if (jssec > -1) {
+        timer = setTimeout('changes()', 1000);//调用自身实现
+        $('.vip_btn').attr("data-onoff", 'false');
+    }
+    else {
+        $('.vip_btn').attr("data-onoff", 'true');
+        clearTimeout(timer);
+        jssec = 3;
+    }
+}
+
+</script>

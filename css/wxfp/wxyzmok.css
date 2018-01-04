@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  height: 100%;
+  padding-top: 1.68rem;
+}
+.okimg {
+  width: 15rem;
+  height: auto;
+  margin-bottom: 2rem;
+}
+.okimg h6 {
+  width: 15rem;
+  height: 1.2rem;
+  padding-left: 3.5rem;
+  margin-bottom: 1.2rem;
+}
+.okimg h6 i {
+  float: left;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-size: 1.2rem 1.2rem;
+  -webkit-background-size: 1.2rem 1.2rem;
+  background-image: url(../../img/icon/yzmok.png);
+}
+.okimg h6 p {
+  float: left;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+  color: #000;
+  padding-left: 0.2rem;
+}
+.okimg div {
+  width: 9.92rem;
+  height: 6.68rem;
+  margin: 0 auto;
+}
+.okimg div img {
+  width: 9.92rem;
+  height: 6.68rem;
+}
+.return_fp {
+  width: 13.4rem;
+  height: 1.88rem;
+  margin-left: 0.8rem;
+}
+.return_fp a {
+  display: block;
+  width: 13.4rem;
+  height: 1.88rem;
+  line-height: 1.8rem;
+  background: #D21313;
+  border: 0.04rem solid rgba(5, 5, 5, 0.08);
+  border-radius: 0.2rem;
+  margin: 0.76rem auto;
+  font-size: 0.72rem;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,194 @@
+.wx_wrap {
+  padding-top: 0;
+}
+.video_wrap {
+  width: 15rem;
+  height: 8.52rem;
+  background: #000;
+}
+.video_wrap .video2 {
+  background: #000;
+}
+/*点赞分享*/
+.play_dz {
+  width: 15rem;
+  height: 3.86rem;
+  border-bottom: 0.02rem solid #e9e9e9;
+  background: #fff;
+}
+.play_dz h1 {
+  width: 100%;
+  height: 2.2rem;
+  font-size: 0.72rem;
+  line-height: 2.2rem;
+  padding-left: 0.8rem;
+  color: #000;
+}
+.play_dz .play_fx {
+  width: 100%;
+  height: 1.64rem;
+  padding: 0 0.8rem;
+}
+.play_dz .play_fx div {
+  float: left;
+  height: 0.84rem;
+  padding-right: 0.8rem;
+}
+.play_dz .play_fx div span {
+  float: left;
+}
+.play_dz .play_fx .kc_dz .dz_btn {
+  width: 0.8rem;
+  height: 0.84rem;
+  background-image: url(../img/icon/wxicon.png);
+  background-size: 4.84rem 13.96rem;
+  -webkit-background-size: 4.84rem 13.96rem;
+  background-position: -0.84rem -0.88rem;
+}
+.play_dz .play_fx .kc_dz .dz_num {
+  height: 0.84rem;
+  line-height: 0.84rem;
+  padding: 0 0.2rem;
+  font-size: 0.6rem;
+  color: #888;
+}
+.play_dz .play_fx .kc_bf .bf_icon {
+  width: 0.8rem;
+  height: 0.84rem;
+  background-image: url(../img/icon/wxicon.png);
+  background-size: 4.84rem 13.96rem;
+  -webkit-background-size: 4.84rem 13.96rem;
+}
+.play_dz .play_fx .kc_bf .bf_num {
+  height: 0.84rem;
+  line-height: 0.84rem;
+  padding: 0 0.2rem;
+  font-size: 0.6rem;
+  color: #888;
+}
+.play_dz .play_fx .kc_fx {
+  width: 0.8rem;
+  height: 0.84rem;
+  background: #ccc;
+}
+.play_dz .play_fx .kc_btn {
+  float: right;
+  width: 0.8rem;
+  height: 0.84rem;
+  padding: 0;
+  background-image: url(../img/icon/wxicon.png);
+  background-size: 4.84rem 13.96rem;
+  -webkit-background-size: 4.84rem 13.96rem;
+  background-position: -3.2rem 0;
+}
+/*播放列表*/
+.play_list {
+  width: 15rem;
+  height: auto;
+  background: #fff;
+  padding: 0.8rem;
+}
+.play_list .list {
+  width: 100%;
+  height: auto;
+}
+.play_list .list li {
+  width: 100%;
+  height: 1.76rem;
+  border: 0.04rem solid rgba(5, 5, 5, 0.1);
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+.play_list .list li a {
+  display: block;
+  padding-left: 0.8rem;
+  height: 1.68rem;
+  padding-top: 0.52rem;
+  font-size: 0.56rem;
+  color: #000;
+}
+.play_list .list li a h6 {
+  float: left;
+  width: 10.2rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.56rem;
+  font-weight: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.play_list .list li a i {
+  float: left;
+  padding: 0 0.2rem;
+  background: #09BB07;
+  border-radius: 0.36rem;
+  -webkit-border-radius: 0.36rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  font-size: 0.52rem;
+  color: #fff;
+}
+.play_list .list li a b {
+  float: right;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 24px;
+}
+.play_list .list li:last-child {
+  margin-bottom: 2rem;
+}
+.play_list .list .playering a {
+  color: #09BB07;
+}
+.play_list .list .playering a b {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-image: url(../img/icon/wxicon.png);
+  background-size: 4.84rem 13.96rem;
+  -webkit-background-size: 4.84rem 13.96rem;
+  background-position: 0rem -1.76rem;
+}
+.play_list .list .notplaying a {
+  color: #888;
+}
+.play_list .list .notplaying a i {
+  display: none;
+}
+/*支付*/
+.wx_pay {
+  width: 15rem;
+  height: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.wx_pay .pay_money {
+  float: left;
+  width: 9rem;
+  height: 2rem;
+  line-height: 2rem;
+  padding-left: 0.8rem;
+  font-size: 0.72rem;
+  color: #D81E06;
+}
+.wx_pay .pay_btn {
+  float: left;
+  width: 6rem;
+  height: 2rem;
+}
+.wx_pay .pay_btn a {
+  display: block;
+  width: 6rem;
+  height: 2rem;
+  background: #d21213;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.72rem;
+  color: #fff;
+}

@@ -1,0 +1,208 @@
+body {
+  font-family: "微软雅黑";
+}
+/*顶部*/
+.wx_wrap {
+  background: #e9e9e9;
+}
+.wx_topnav {
+  width: 100%;
+  height: 2rem;
+  padding: 0.4rem;
+  margin-bottom: 0.2rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+.wx_topnav .person {
+  width: 3.44rem;
+  height: 1.12rem;
+  background-image: url(../img/logo_www.png);
+  background-size: 3.44rem 1.12rem;
+  -webkit-background-size: 3.44rem 1.12rem;
+}
+.wx_topnav .texts {
+  width: 10.6rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.72rem;
+  color: #000;
+  position: relative;
+}
+.wx_topnav .texts h2 {
+  width: 4.76rem;
+  height: 1.2rem;
+}
+.wx_topnav .texts h2 i {
+  width: 0.8rem;
+  height: 0.8rem;
+  float: left;
+  margin-top: 0.2rem;
+  margin-right: 0.2rem;
+  background-image: url(../img/icon/menu.png);
+  background-size: 0.8rem 0.8rem;
+  -webkit-background-size: 0.8rem 0.8rem;
+}
+.wx_topnav .texts h2 strong {
+  float: left;
+  line-height: 1.2rem;
+  font-size: 0.72rem;
+}
+.wx_topnav .texts .kclist {
+  display: none;
+  position: absolute;
+  left: -0.4rem;
+  top: 1.6rem;
+  z-index: 10;
+  width: 4.76rem;
+  height: 3.92rem;
+  padding: 0.32rem 0;
+  background: #fff;
+  border-top: 0.02rem solid #979797;
+}
+.wx_topnav .texts .kclist li {
+  width: 4.76rem;
+  height: 1.64rem;
+}
+.wx_topnav .texts .kclist li a {
+  display: block;
+  width: 4.76rem;
+  height: 1.64rem;
+  padding-left: 0.4rem;
+  color: #000;
+}
+.wx_topnav .texts .kclist li a i {
+  width: 0.8rem;
+  height: 0.8rem;
+  float: left;
+  margin-top: 0.42rem;
+  margin-right: 0.2rem;
+}
+.wx_topnav .texts .kclist li a strong {
+  float: left;
+  line-height: 1.64rem;
+  font-size: 0.72rem;
+}
+.wx_topnav .texts .kclist li:first-child a i {
+  background-image: url(../img/icon/menuxx.png);
+  background-size: 0.8rem 0.8rem;
+  -webkit-background-size: 0.8rem 0.8rem;
+}
+.wx_topnav .texts .kclist li:nth-child(2) a i {
+  background-image: url(../img/icon/menuxq.png);
+  background-size: 0.8rem 0.8rem;
+  -webkit-background-size: 0.8rem 0.8rem;
+}
+.wx_topnav .member {
+  width: 2.4rem;
+  height: 1.2rem;
+  border-radius: 0.12rem;
+  -webkit-border-radius: 0.12rem;
+}
+.wx_topnav .member a {
+  display: block;
+  width: 2.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  background: #df5555;
+  font-size: 0.52rem;
+  color: #fff;
+  border-radius: 0.12rem;
+  -webkit-border-radius: 0.12rem;
+}
+.wx_topnav .person,
+.wx_topnav .texts {
+  float: left;
+}
+.wx_topnav .member {
+  float: right;
+}
+/*banner*/
+.banner_wrap {
+  width: 15rem;
+  height: 6rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+.banner_wrap .wx_banner {
+  width: 15rem;
+  height: 6rem;
+  background: #666;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.banner_wrap .wx_banner .banner_box {
+  width: 100%;
+  height: 100%;
+}
+.banner_wrap .wx_banner .banner_box .banner_con {
+  width: 100%;
+  height: 100%;
+}
+.banner_wrap .wx_banner .banner_box .banner_con .banner_list {
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  text-align: center;
+}
+.banner_wrap .wx_banner .banner_box .banner_con .banner_list a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.banner_wrap .wx_banner .banner_box .banner_con .banner_list a img {
+  width: 15rem;
+  height: 6rem;
+}
+.banner_wrap .wx_banner .banner_box .swiper-pagination-bullet {
+  background: #999;
+  opacity: 1;
+}
+.banner_wrap .wx_banner .banner_box .swiper-pagination-bullet-active {
+  background: #fff;
+}
+.banner_wrap .banner_mask {
+  width: 13.8rem;
+  height: 5.1rem;
+  position: absolute;
+  left: 0.6rem;
+  bottom: 0;
+  z-index: 0;
+  box-shadow: 0rem 0.2rem 0.34rem rgba(0, 0, 0, 0.5);
+}
+/*免费专区*/
+.wx_mfzq {
+  width: 15rem;
+  height: 1.4rem;
+  background: #fff;
+}
+.wx_mfzq .wx_mfimg {
+  width: 8rem;
+  height: 1.4rem;
+  margin: 0 auto;
+}
+.wx_mfzq .wx_mfimg img {
+  width: 8rem;
+  height: 1.4rem;
+}
+.wx_mfkc {
+  margin-bottom: 0.4rem;
+  width: 15rem;
+  height: 6.76rem;
+  overflow: hidden;
+}
+.wx_mfkc .mfkc_con {
+  height: 6.76rem;
+}
+.wx_mfkc .mfkc_con .wx_kc {
+  width: 15rem;
+  height: 6.76rem;
+  padding-bottom: 0.4rem;
+  float: left;
+}
+/*课程导航*/

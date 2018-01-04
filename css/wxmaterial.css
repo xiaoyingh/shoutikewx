@@ -1,0 +1,162 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  background: #e5e5e5;
+  min-height: 100%;
+  padding-top: 0;
+}
+.my_mater {
+  width: 15rem;
+  height: auto;
+  padding-top: 0.6rem;
+}
+.my_mater .rows {
+  width: 100%;
+  height: 1.78rem;
+  background: #fff;
+  border-bottom: 0.02rem solid #e5e5e5;
+  padding: 0 0.6rem;
+  position: relative;
+}
+.my_mater .rows div {
+  width: 13.8rem;
+  height: 1.76rem;
+  position: absolute;
+  left: 0.6rem;
+  top: 0;
+  z-index: 0;
+}
+.my_mater .rows div b {
+  float: left;
+  width: 3rem;
+  height: 1.76rem;
+  padding-top: 0.4rem;
+  font-size: 0.68rem;
+  color: #000;
+}
+.my_mater .rows div b span {
+  color: #D81E06;
+  font-size: 0.68rem;
+}
+.my_mater .rows div b strong {
+  display: none;
+  color: #D81E06;
+  font-size: 0.4rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+}
+.my_mater .rows div p {
+  float: left;
+  width: 9.68rem;
+  height: 1.76rem;
+  padding: 0.4rem 0;
+  font-size: 0.68rem;
+  color: #888;
+  text-align: right;
+}
+.my_mater .rows div p input {
+  float: left;
+  border: 0;
+  width: 100%;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.68rem;
+  color: #888;
+  text-align: right;
+  -webkit-appearance: none;
+}
+.my_mater .rows div i {
+  float: right;
+  margin-top: 0.6rem;
+  width: 0.32rem;
+  height: 0.52rem;
+  background-image: url(../img/icon/wxicon.png);
+  background-size: 4.84rem 13.96rem;
+  -webkit-background-size: 4.84rem 13.96rem;
+  background-position: -1.68rem -2.04rem;
+}
+.my_mater .rows .txts,
+.my_mater .rows .selects {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1.76rem;
+  opacity: 0;
+  -webkit-opacity: 0;
+  z-index: 5;
+}
+.my_mater .rows .txts .map_select {
+  width: 100%;
+  height: 1.76rem;
+  position: relative;
+}
+.my_mater .rows .txts .map_select select {
+  width: 100%;
+  height: 1.76rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.my_mater .rows .txts .map_select select:nth-child(1) {
+  z-index: 12;
+}
+.my_mater .rows .txts .map_select select:nth-child(2) {
+  z-index: 11;
+}
+.my_mater .rows .txts .map_select select:nth-child(3) {
+  z-index: 10;
+}
+.my_mater .rows .txts .map_select select.map_active {
+  z-index: 20;
+}
+.my_mater .first_rows {
+  border: 0;
+  height: 1.76rem;
+  margin-bottom: 0.6rem;
+}
+.my_mater .last_rows {
+  margin-bottom: 1.2rem;
+}
+.my_mater .mater_btn {
+  width: 13.4rem;
+  height: 1.88rem;
+  background: #d21213;
+  border: 2px solid #d21213;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  font-size: 0.72rem;
+  color: #fff;
+  margin-left: 0.8rem;
+  -webkit-appearance: none;
+}
+.my_mater .error {
+  height: 2.32rem;
+}
+.my_mater .error div {
+  height: 2.32rem;
+}
+.my_mater .error div b {
+  height: 2.32rem;
+}
+.my_mater .error div b strong {
+  display: block;
+  float: left;
+  width: 100%;
+}
+.my_mater .error div p {
+  height: 2.32rem;
+  padding: 0.68rem 0;
+}
+.my_mater .error div p input {
+  height: 0.96rem;
+  line-height: 0.96rem;
+}
+.my_mater .error div i {
+  margin-top: 0.92rem;
+}
+.my_mater .error .txts {
+  height: 2.32rem;
+}

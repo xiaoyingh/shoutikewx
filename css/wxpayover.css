@@ -1,0 +1,52 @@
+.wx_wrap {
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+}
+.top {
+  width: 100%;
+  height: 3.6rem;
+  padding-top: 1.6rem;
+}
+.top h6 {
+  width: 5rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: right;
+  font-size: 0.8rem;
+  color: #000;
+  margin: 0 auto;
+  background: url(../img/icon/payover.png) no-repeat;
+  background-size: 1.2rem 1.2rem;
+  -webkit-background-size: 1.2rem 1.2rem;
+}
+.con {
+  width: 100%;
+  height: 6.68rem;
+}
+.con p {
+  width: 9.92rem;
+  height: 6.68rem;
+  margin: 0 auto;
+  background-image: url(../img/icon/Group.png);
+  background-size: 9.92rem 6.68rem;
+  -webkit-background-size: 9.92rem 6.68rem;
+}
+.back {
+  width: 100%;
+  height: 3.88rem;
+  padding-top: 2rem;
+}
+.back a {
+  display: block;
+  width: 13.8rem;
+  height: 1.88rem;
+  line-height: 1.88rem;
+  text-align: center;
+  background: #d21213;
+  color: #fff;
+  font-size: 0.68rem;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  margin: 0 auto;
+}

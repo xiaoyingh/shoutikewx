@@ -1,0 +1,416 @@
+@rem:50rem;
+html,body{
+    height: 100%;
+}
+@keyframes rotate-singerimg {
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate-singerimg {
+    
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotate-singerimg {
+    
+    100% {
+        -o-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotate-singerimg {
+    
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+.wx_wrap{
+    height: 100%;
+    padding-top: 10%;
+    .bg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: url("../../img/audio/audio01.jpg") no-repeat center;
+        background-size: cover;
+        filter: blur(0.82rem);
+        -webkit-filter: blur(0.82rem);
+        background-position: 0 50%;
+    }
+    .bgblack{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.2);
+        
+    }
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 750/@rem;
+//  height: 90/@rem;
+//  padding-top: 40/@rem;
+    height: 10%;
+    padding-top: 4%;
+    .prev_btn{
+        width: 50/@rem;
+        height: 50/@rem;
+        margin-left: 40/@rem;
+        background: url(../../img/audio/prevhome.png) no-repeat center;
+        background-size: 50/@rem 50/@rem;
+        -webkit-background-size: 50/@rem 50/@rem;
+        a{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.section{
+    width: 750/@rem;
+//  height: 620/@rem;
+    height: 75%;
+    .audio_center{
+        width: 750/@rem;
+        height: 100%;
+        position: relative;
+        .audio_singer{
+            width: 750/@rem;
+            height: 100%;
+            .singerimg{
+                width: 580/@rem;
+                height: 580/@rem;
+                margin: 0 auto;
+                padding: 110/@rem;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                background: rgba(0,0,0,0.1) url(../../img/audio/audiomask.png) no-repeat center;
+                background-size: 580/@rem 580/@rem;
+                img{
+                    width: 360/@rem;
+                    height: 360/@rem;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    
+                }
+                .anmiting{
+                    animation: rotate-singerimg 20s linear infinite;
+                    -webkit-animation: rotate-singerimg 20s linear infinite;
+                    -webkit-animation-play-state: running;
+                    -moz-animation-play-state: running;
+                    animation-play-state: running;
+                    -ms-animation-play-state: running;
+                    -o-animation-play-state: running;
+                }
+                .anmitnomal{
+                    animation: rotate-singerimg 20s linear infinite;
+                    -webkit-animation: rotate-singerimg 20s linear infinite;
+                    animation-play-state: paused;
+                    -webkit-animation-play-state: paused;
+                    -moz-animation-play-state: paused;
+                    -ms-animation-play-state: paused;
+                    -o-animation-play-state: paused;
+                }
+                
+            }
+            
+        }
+        
+        
+    }
+    .lrc_mask{
+        display: none;
+        width: 750/@rem;
+        height: 100%;
+        padding-top: 40/@rem;
+        padding-bottom: 40/@rem;
+        overflow: hidden;
+        mask-image:linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,.6) 15%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(255,255,255,.6) 85%,rgba(255,255,255,0) 100%);
+        -webkit-mask-image:linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,.6) 15%,rgba(255,255,255,1) 25%,rgba(255,255,255,1) 75%,rgba(255,255,255,.6) 85%,rgba(255,255,255,0) 100%);
+        .audio_lrc{
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            padding: 0 75/@rem;
+            ul{
+               width: 100%; 
+               height: auto;
+               li{
+                   width: 100%;
+                   min-height: 50/@rem;
+                   line-height: 50/@rem;
+                   text-align: center;
+                   font-size: 28/@rem;
+                   color: #fff;
+               }
+            }
+        }
+    }
+}
+.sel_title{
+    width: 750/@rem;
+    height: 210/@rem;
+    height: 10%;
+    //padding-top: 50/@rem;
+    position: absolute;
+    left: 0;
+    bottom: 340/@rem;
+    bottom: 20%;
+    z-index: 100;
+    h5{
+       height: 45/@rem;
+       line-height: 45/@rem;
+       text-align: center;
+       color: #fff;
+       font-size: 32/@rem;
+       //margin-bottom: 20/@rem; 
+    }
+    h6{
+       height: 40/@rem;
+       line-height: 40/@rem;
+       text-align: center;
+       color: #fff;
+       font-size: 28/@rem; 
+    }
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    height: 340/@rem;
+    height: 20%;
+    .foot_con{
+        width: 100%;
+        height: 340/@rem;
+        height: 100%;
+        position: relative;
+        .process{
+            width: 100%;
+            height:40/@rem;
+            padding: 0 40/@rem;
+            #currentTime{
+                float: left;
+                width: 70/@rem;
+                height:40/@rem;
+                line-height: 40/@rem;
+                text-align: center;
+                font-size: 20/@rem;
+                color: #fff;
+                margin-right: 20/@rem;
+            }
+            #process-bar{
+                float: left;
+                width: 500/@rem;
+                height: 40/@rem;
+                position: relative;
+                #process-all{
+                    position: absolute;
+                    left: 0;
+                    top: 17/@rem;
+                    width: 500/@rem;
+                    height: 6/@rem;
+                    cursor: pointer;
+                    background-color: #615D5C;
+                    border-radius: 8/@rem;
+                    -webkit-border-radius: 8/@rem;
+                }
+                #process-cur{
+                    position: absolute;
+                    left: 0;
+                    top: 17/@rem;
+                    height: 6/@rem;
+                    border-radius: 8/@rem;
+                    -webkit-border-radius: 8/@rem;
+                    background-color: #DF5555;
+                    #cur-btn{
+                        cursor: pointer;
+                        position: absolute;
+                        left: 0;
+                        margin-left: -17/@rem;
+                        top: -17/@rem;
+                        width: 35/@rem;
+                        height: 35/@rem;
+                        background: url(../../img/icon/oval.png) no-repeat;
+                        background-size: 35/@rem 35/@rem;
+                        -webkit-background-size: 35/@rem 35/@rem;
+                        -webkit-filter: brightness(0.9);
+                    }
+                }
+            }
+            #total-time{
+                float: right;
+                width: 70/@rem;
+                height:40/@rem;
+                line-height: 40/@rem;
+                text-align: center;
+                font-size: 20/@rem;
+                color: #fff;
+            }
+        }
+        .loop{
+            position: absolute;
+            left: 50/@rem;
+            //bottom: 130/@rem;
+            bottom: 34%;
+            width: 56/@rem;
+            height:36/@rem;
+            background: url("../../img/audio/xj_icon.png") no-repeat center;
+            background-size: 56/@rem 36/@rem;
+            -webkit-background-size: 56/@rem 36/@rem;
+            
+        }
+        .prev_btn{
+            position: absolute;
+            left: 185/@rem;
+            //bottom: 125/@rem;
+            bottom: 28%;
+            width: 52/@rem;
+            height:52/@rem;
+            background: url("../../img/audio/prev_btn.png") no-repeat center;
+            background-size: 52/@rem 52/@rem;
+            -webkit-background-size: 52/@rem 52/@rem;
+        }
+        .playing_btn{
+            position: absolute;
+            left: 50%;
+            //bottom: 100/@rem;
+            bottom: 20%;
+            margin-left: -51/@rem;
+            width: 102/@rem;
+            height:102/@rem;
+            background: url("../../img/audio/play_stop.png") no-repeat center;
+            background-size: 102/@rem 102/@rem;
+            -webkit-background-size: 102/@rem 102/@rem;
+        }
+        .next_btn{
+            position: absolute;
+            left: 515/@rem;
+            //bottom: 125/@rem;
+            bottom: 28%;
+            width: 52/@rem;
+            height: 52/@rem;
+            background: url("../../img/audio/next_btn.png") no-repeat center;
+            background-size: 52/@rem 52/@rem;
+            -webkit-background-size: 52/@rem 52/@rem;
+        }
+        .music_menu{
+            position: absolute;
+            right: 50/@rem;
+            //bottom: 130/@rem;
+            bottom: 34%;
+            width: 56/@rem;
+            height:36/@rem;
+            background: url("../../img/audio/lrcicon.png") no-repeat center;
+            background-size: 56/@rem 36/@rem;
+            -webkit-background-size: 56/@rem 36/@rem;
+        }
+     
+    }
+    
+}
+.mask_list{
+    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 750/@rem;
+    height: 100%;
+    z-index: 500;
+    .mask_cose{
+        width: 750/@rem;
+        height: 646/@rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: rgba(0,0,0,0.5);
+        h6{
+            width: 750/@rem;
+            height: 101/@rem;
+            line-height: 100/@rem;
+            border-bottom: 1/@rem solid #e5e5e5;
+            padding: 0 40/@rem;
+            text-align: center;
+            font-size: 36/@rem;
+            color: #fff;
+            span{
+                color: rgba(251,237,237,0.50);
+            }
+        }
+        .list_con{
+            width: 100%;
+            min-height: 178/@rem;
+            max-height: 445/@rem;
+            ul{
+                position: absolute;
+                width: 100%;
+                min-height: 178/@rem;
+                max-height: 445/@rem;
+                overflow: auto;
+                li{
+                    width: 100%;
+                    height: 89/@rem;
+                    border-bottom: 1/@rem solid #e5e5e5;
+                    a{
+                        display: block;
+                        width: 100%;
+                        height: 88/@rem;
+                        padding: 0 40/@rem;
+                        color: #fff;
+                        font-size: 30/@rem;
+                        .lis{
+                           float: left; 
+                           width: 650/@rem;
+                           height: 88/@rem;
+                           line-height: 88/@rem;
+                           font-size: 30/@rem;
+                        }
+                        i{
+                            float: right;
+                            width: 16/@rem;
+                            height: 20/@rem;
+                            margin-top: 35/@rem;
+                        }
+                    }
+                }
+                .audio_active{
+                    a{
+                        color: #2ED92C;
+                        i{
+                            background: url("../../img/audio/audioicon.png") no-repeat center;
+                            background-size: 56/@rem 170/@rem;
+                            -webkit-background-size: 56/@rem 170/@rem;
+                            background-position: 0 -60/@rem;
+                        }
+                    }
+                }
+            }
+        }
+        .lists_close{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100/@rem;
+            line-height: 100/@rem;
+            text-align: center;
+            font-size: 36/@rem;
+            color: #fff;
+        }
+    }
+    
+}

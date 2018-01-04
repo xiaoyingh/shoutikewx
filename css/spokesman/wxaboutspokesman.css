@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+}
+/*清除焦点原有样式 添加需要样式*/
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0;
+  float: left;
+  margin-right: 3rem;
+  background: #fff;
+  opacity: 0;
+}
+.wx_wrap {
+  width: 15rem;
+  height: 100%;
+  padding-top: 0;
+  overflow: hidden;
+}
+.wx_wrap .wrapper {
+  width: 300%;
+  height: 100%;
+  position: relative;
+}
+.wx_wrap .wrapper .con {
+  float: left;
+  width: 15rem;
+  height: 100%;
+  padding-top: 1rem;
+}
+.wx_wrap .swiper-pagination {
+  position: absolute;
+  width: 9rem;
+  height: 1rem;
+  left: 3rem;
+  top: 11.9rem;
+}
+.wx_wrap .swiper-pagination span {
+  width: 1rem;
+  height: 1rem;
+}
+.wx_wrap .swiper-pagination span:last-child {
+  margin-right: 0;
+}
+.con .okimg {
+  width: 10rem;
+  height: 11rem;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.con .okimg p {
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto;
+}
+.con .okimg p img {
+  width: 10rem;
+  height: 10rem;
+}
+.con .oknav {
+  width: 8.8rem;
+  height: 0.8rem;
+  margin: 0 auto;
+  margin-bottom: 1.6rem;
+}
+.con .oknav .oklist {
+  width: 100%;
+  height: 0.8rem;
+}
+.con .oknav .oklist img {
+  width: 8.8rem;
+  height: 0.8rem;
+}
+.con .oktabscon {
+  width: 10.08rem;
+  height: auto;
+  margin: 0 auto;
+}
+.con .oktabscon h6 {
+  width: 10.08rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.96rem;
+  color: #E31B1B;
+  margin-bottom: 0.2rem;
+}
+.con .oktabscon .oktabs {
+  width: 10.08rem;
+  height: 6rem;
+}
+.con .oktabscon .oktabs p {
+  line-height: 1.2rem;
+  color: #666;
+  font-size: 0.72rem;
+  margin-bottom: 1.16rem;
+  text-align: justify;
+}
+.con .oktabscon .oktabs .dyrxq {
+  width: 100%;
+  height: 1.76rem;
+}
+.con .oktabscon .oktabs .dyrxq a {
+  float: left;
+  width: 4.6rem;
+  height: 1.76rem;
+  text-align: center;
+  line-height: 1.68rem;
+  background: #E64340;
+  border: 0.04rem solid #e64340;
+  border-radius: 0.12rem;
+  -webkit-border-radius: 0.12rem;
+  color: #fff;
+  font-size: 0.6rem;
+}
+.con .oktabscon .oktabs .dyrxq a:first-child {
+  background: #fff;
+  color: #E64340;
+  margin-right: 0.6rem;
+}

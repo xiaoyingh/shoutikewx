@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  width: 100%;
+  height: 100%;
+  background: #e9e9e9;
+  padding-top: 7.44rem;
+}
+.con {
+  width: 11.2rem;
+  height: 6.58rem;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0.16rem;
+  -webkit-border-radius: 0.16rem;
+}
+.con .top {
+  width: 100%;
+  height: 4.58rem;
+  border-bottom: 0.02rem solid #e9e9e9;
+  padding-top: 1rem;
+}
+.con .top h6 {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.72rem;
+  text-align: center;
+  color: #000;
+}
+.con .top p {
+  width: 100%;
+  height: 2.4rem;
+  text-align: center;
+  padding: 0.36rem 0.8rem;
+  font-size: 0.6rem;
+  color: #888888;
+  line-height: 0.8rem;
+}
+.con p {
+  width: 100%;
+  height: 2rem;
+}
+.con p a {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 0.72rem;
+  color: #02BB00;
+}

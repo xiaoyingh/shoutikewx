@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>手提课</title>
+<meta http-equiv="content-type" content="text/htm" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../../css/wxpublic/wxpublic.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/wxplay.css"/>
+</head>
+<body>
+<div class="wx_wrap">
+	<div class="video_wrap">
+		<!--极酷阳光播放器/代码开始-->
+        <div class="video2" id="CuPlayer">
+            <script>
+                var vID = "";
+                var vWidth = "100%";            //播放器宽度设置
+                var vHeight = "100%";               //播放器高度设置
+                var vFile = "../../jscript/v3/CuSunV3set.xml";
+                var vPlayer = "../../jscript/v3/player.swf?v=3.5";
+                var vPic = "";//视频缩略图
+                var vCssurl = "../../content/wxcss/mini.css";
+                var vMp4url = "http://oss.shoutike.com/stk/series/2/20170121/20170121180335nk6kNbbwEATCzZNkz3MQ.mp4"; 
+//                              var vMp4url = "C:\Users\Administrator\Desktop\demo\TWST.mp4";
+            </script>
+            <script class="CuPlayerVideo" data-mce-role="CuPlayerVideo" type="text/javascript" src="../../jscript/v3/CuSunX1.min.js"></script>
+	    </div>
+	</div>
+	<!--点赞分享-->
+	<div class="play_dz">
+		<h1>一年级英语 单词精讲 第一单元</h1>
+		<div class="play_fx">
+			<div class="kc_dz">
+				<span class="dz_btn" data-btn="false"></span>
+				<span class="dz_num">432</span>
+			</div>
+			<div class="kc_bf">
+				<span class="bf_icon"></span>
+				<span class="bf_num">987</span>
+			</div>
+			<!--<div class="kc_fx">
+				<a href="javascript:;"></a>
+			</div>-->
+			<div class="kc_btn">
+			    
+			</div>
+		</div>
+	</div>
+	<!--播放列表-->
+	<div class="play_list">
+		<ul class="list">
+			<li>
+				<a href="../views/aboutplay.html">
+					<h6>第1集 乘法口诀表1段第1集 乘法口诀表1段第1集 乘法口诀表1段第1集 乘法口诀表1段</h6>
+					
+				</a>
+			</li>
+			<li class="playering">
+				<a href="javascript:;">
+					<h6>第2集 乘法口诀表2段</h6>
+					
+				</a>
+				
+			</li>
+			<li class="notplaying">
+				<a href="../views/aboutplay.html">
+					<h6>第3集 乘法口诀表3段</h6>
+					
+				</a>
+			</li>
+			<li class="notplaying">
+				<a href="javascript:;">
+					<h6>第4集 乘法口诀表4段</h6>
+					
+				</a>
+			</li>
+		    <li class="notplaying">
+		    	<a href="javascript:;">
+		    		<h6>第5集 乘法口诀表5段</h6>
+		    		
+		    	</a>
+		    </li>
+			<li class="notplaying">
+				<a href="javascript:;">
+					<h6>第6集 乘法口诀表6段</h6>
+				</a>
+				
+			</li>
+			<li class="notplaying">
+				<a href="javascript:;">
+					<h6>第7集 乘法口诀表7段</h6>
+					
+				</a>
+				
+			</li>
+			<li class="notplaying">
+				<a href="javascript:;">
+					<h6>第8集 乘法口诀表8段</h6>
+					
+				</a>
+			</li>
+			<li class="notplaying">
+				<a href="javascript:;">
+					<h6>第9集 乘法口诀表9段</h6>
+					
+				</a>
+			</li>
+			<li class="notplaying">
+				<a href="javascript:;">
+					<h6>第10集 乘法口诀表10段</h6>
+					
+				</a>
+			</li>
+		</ul>
+	</div>
+    <!--支付-->
+    <div class="wx_pay">
+    	<p class="pay_money">￥19.99</p>
+    	<p class="pay_btn"><a href="wxorder.html">立即购买</a></p>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../../jscript/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="../../js/wxpublic.js"></script>
+<script type="text/javascript" src="../../js/wxplay.js"></script>
+<!--视频播放-->
+<script type="text/javascript">
+$('#CuPlayerVideo_video').height('8.52rem');
+ChangeCurr();
+
+function getNext(pars) {
+    var url = $("#nextUrl").val();
+    if (url == undefined || url == "") {
+        return false;
+    }
+    window.location = url;
+}
+
+function ChangeCurr() {
+	
+    var video_index = $("#curr").val();
+//  $(".list li").addClass('playering');
+    $(".list li").eq(video_index).addClass('playering');
+    LeftScr(video_index);
+}
+
+function LeftScr(m) {
+    var scrtop;
+    if (m > 1) {
+        scrtop = 76 * (m - 1);
+    } else {
+        scrtop = 0;
+    }
+    $(".list").animate({
+        scrollTop: scrtop
+    }, 130);
+}
+function share(t) {
+    var url = "/Share/Share?i=nct1LqfUAA7c0DiYNZ1sZw..&t=" + t;
+    window.open(url);
+}
+    
+</script>

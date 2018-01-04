@@ -1,0 +1,86 @@
+.wx_nav {
+  width: 15rem;
+  height: 1.42rem;
+  background: #fff;
+  border-bottom: 0.02rem solid #e9e9e9;
+  position: relative;
+}
+.wx_nav .nav_menu {
+  width: 100%;
+  height: 1.4rem;
+  padding: 0 0.6rem;
+}
+.wx_nav .nav_menu .nav_list {
+  float: left;
+  height: 1.4rem;
+}
+.wx_nav .nav_menu .nav_list span {
+  float: left;
+  padding-right: 0.4rem;
+  line-height: 1.4rem;
+  font-size: 0.56rem;
+  color: #090909;
+}
+.wx_nav .nav_menu .nav_list i {
+  float: left;
+  width: 0.52rem;
+  height: 0.32rem;
+  margin-top: 0.58rem;
+  background-image: url(../../img/fp/down.png);
+  background-size: 0.52rem 0.32rem;
+  -webkit-background-size: 0.52rem 0.32rem;
+  text-indent: 1.8rem;
+  transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  /* Firefox 4 */
+  -webkit-transition: transform 0.5s;
+  /* Safari 和 Chrome */
+  -o-transition: transform 0.5s;
+  /* Opera */
+}
+.wx_nav .nav_menu .nav_list:first-child {
+  margin-right: 2.76rem;
+}
+.wx_nav .nav_menu .nav_list:last-child {
+  float: right;
+}
+.wx_nav .nav_wrap {
+  width: 15rem;
+  background: #fff;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 1.42rem;
+}
+.wx_nav .nav_wrap .menu_con {
+  display: none;
+  width: 15rem;
+  padding: 0.2rem 0.6rem;
+}
+.wx_nav .nav_wrap .menu_con .items {
+  width: 100%;
+  height: auto;
+}
+.wx_nav .nav_wrap .menu_con .items li {
+  float: left;
+  height: 1.4rem;
+  margin-right: 0.8rem;
+}
+.wx_nav .nav_wrap .menu_con .items li a {
+  display: block;
+  padding: 0.1rem 0.2rem;
+  height: 1.4rem;
+  line-height: 1.2rem;
+  color: #333;
+  font-size: 0.56rem;
+}
+.wx_nav .nav_wrap .menu_con .items .menu_active a {
+  color: #DF5555;
+}
+.wx_nav .nav_wrap .menu_year .items li {
+  margin-right: 3.6rem;
+}
+.wx_nav .nav_wrap .menu_year .items li:nth-child(3),
+.wx_nav .nav_wrap .menu_year .items li:nth-child(6) {
+  margin-right: 0;
+}

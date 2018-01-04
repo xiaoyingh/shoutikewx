@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  background: #e5e5e5;
+  min-height: 100%;
+  padding-top: 0.6rem;
+}
+.texts_con {
+  width: 100%;
+  height: auto;
+}
+.texts_con .txts {
+  width: 100%;
+  height: 1.76rem;
+  background: #fff;
+  margin-bottom: 1.2rem;
+}
+.texts_con .txts span {
+  float: left;
+  width: 2.8rem;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  text-align: right;
+  color: #000;
+  font-size: 0.68rem;
+}
+.texts_con .txts input {
+  float: left;
+  border: 0;
+  width: 12.2rem;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  padding-left: 1.4rem;
+  color: #B2B2B2;
+  font-size: 0.68rem;
+}
+.texts_con .txt_btn {
+  border: 0;
+  width: 13.4rem;
+  height: 1.88rem;
+  line-height: 1.88rem;
+  text-align: center;
+  font-size: 0.72rem;
+  color: #fff;
+  margin-left: 0.8rem;
+  background: #D81E06;
+  border: 0.04rem solid rgba(5, 5, 5, 0.08);
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+}

@@ -1,0 +1,93 @@
+@rem:50rem;
+
+.wx_nav{
+    width: 750/@rem;
+    height: 71/@rem;
+    background: #fff;
+    border-bottom: 1/@rem solid #e9e9e9;
+    position: relative;
+    .nav_menu{
+        width: 100%;
+        height: 70/@rem;
+        padding: 0 30/@rem;
+        .nav_list{
+            float: left;
+            height: 70/@rem;
+            span{
+               float: left;
+                padding-right: 20/@rem;
+                line-height: 70/@rem;
+                font-size: 28/@rem;
+                color: #090909; 
+            }
+            i{
+                float: left;
+                width: 26/@rem;
+                height: 16/@rem;
+                margin-top: 29/@rem;
+                background-image: url(../../img/fp/down.png);
+                background-size: 26/@rem 16/@rem;
+                -webkit-background-size: 26/@rem 16/@rem;
+                text-indent: 90/@rem;
+                transition: transform 0.5s;
+                -moz-transition: transform 0.5s;  /* Firefox 4 */
+                -webkit-transition: transform 0.5s;   /* Safari 和 Chrome */
+                -o-transition: transform 0.5s;    /* Opera */
+            }
+        }
+        .nav_list:first-child{
+            margin-right: 138/@rem;
+        }
+        .nav_list:last-child{
+            float: right;
+        }
+    }
+    .nav_wrap{
+        width: 750/@rem;
+        background: #fff;
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        top: 71/@rem;
+        .menu_con{
+            display: none;
+            width: 750/@rem;
+//          min-height: 80/@rem;
+            padding: 10/@rem 30/@rem;
+            .items{
+                width: 100%;
+                height: auto;
+                li{
+                    float: left;
+                    height: 70/@rem;
+                    margin-right: 40/@rem;
+                    a{
+                        display: block;
+                        padding: 5/@rem 10/@rem;
+                        height: 70/@rem;
+                        line-height: 60/@rem;
+                        color: #333;
+                        font-size: 28/@rem;
+                    }
+                }
+                
+                .menu_active{
+                    a{
+                        color: #DF5555;
+                    }
+                }
+            }
+        }
+        .menu_year{
+            .items{
+                li{
+                    margin-right: 180/@rem;
+                }
+                li:nth-child(3),li:nth-child(6){
+                    margin-right: 0;
+                }
+                
+            }
+        }
+    }
+}

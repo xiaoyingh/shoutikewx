@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>手提课</title>
+<meta http-equiv="content-type" content="text/htm" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../css/wxpublic/wxpublic.css"/>
+<link rel="stylesheet" type="text/css" href="../css/wxmaterial.css"/>
+<link rel="stylesheet" type="text/css" href="../dist/css/LArea.css"/>
+<link rel="stylesheet" type="text/css" href="../css/wxpublic/wxfooter.css"/>
+<style type="text/css">
+	.area_roll>div{
+		height: 11em;
+	}
+	.map_select select{
+		border: none;
+	}
+	
+</style>
+</head>
+<body>
+<div class="wx_wrap">
+	<div class="my_mater">
+		<div class="rows first_rows">
+			<div class="rows_phone">
+				<b>手机号</b>
+			    <p>未绑定</p>
+		    	<i></i>
+	        </div>
+	        <a href="matertexts/materphone.html" class="txts"></a>
+		</div>
+		<form action="" method="post">
+			<div class="rows">
+				<div class="rows_name">
+			    	<b>姓名</b>
+			    	<p>
+			    		<input type="text" placeholder="" name="" class="mytext" />
+			    	</p>
+			    	<i></i>
+			   </div>
+			</div>
+		    
+		    <div class="rows">
+		    	<div class="rows_sex">
+			    	<b>性别</b>
+			    	<p>请选择</p>
+			    	<i></i>
+			    </div>
+			    <select name="sex" class="selects">
+			    	<option value="" disabled="disabled">请选择</option>
+			    	<option value="男">男</option>
+			    	<option value="女">女</option>
+			    </select>
+		    </div>
+		    
+		    <div class="rows">
+		    	<div class="rows_map">
+			    	<b>所在地</b>
+			    	<!--<p>请选择</p>-->
+			    	<p>山西省,太原市,迎泽区</p>
+			    	<i></i>
+			    </div>
+			    <div class="txts txts_szd">
+			    	<div class="map_select">
+				    	<select id="s_province" name="s_province" class="" size="1"></select> 
+						<select id="s_city" name="s_city" size="1"></select>
+						<select id="s_county" name="s_county" size="1"></select>
+						<script class="resources library" src="../jscript/area.js" type="text/javascript"></script>
+						<script type="text/javascript">
+							var opt0 = ["山西省","太原市","迎泽区"];//初始值
+							_init_area();
+						</script>
+					</div>
+					
+			    </div>
+			    
+		    </div>
+		    
+		    <div class="rows">
+		    	<div class="rows_school">
+			    	<b>学校</b>
+			    	<p>
+			    		<input type="text" name="" id="" class="mytext" value="" placeholder="" />
+			    	</p>
+			    	<i></i>
+			    </div>
+		    </div>
+		    
+		    <div class="rows">
+		    	<div class="rows_year">
+			    	<b>年级</b>
+			    	<p>请选择</p>
+			    	<i></i>
+			    </div>
+			    <select name="" class="selects" id="">
+			    	<option value="" disabled="disabled">请选择</option>
+			    	<option value="一年级">一年级</option>
+			    	<option value="二年级">二年级</option>
+			    	<option value="三年级">三年级</option>
+			    	<option value="四年级">四年级</option>
+			    	<option value="五年级">五年级</option>
+			    	<option value="六年级">六年级</option>
+			    </select>
+		    </div>
+		    
+		    <div class="rows last_rows">
+		    	<div class="rows_class">
+			    	<b>班级</b>
+			    	<p>
+			    		<input type="text" name="" id="" class="mytext" value="" placeholder="" />
+			    	</p>
+			    	<i></i>
+			    </div>
+			    
+		    </div>
+			<input type="submit" value="完善资料" id="mater_btn" class="mater_btn"/>
+		</form>
+	</div>
+
+    <!--footer 导航-->
+    <footer class="footer">
+    	<div class="foot_nav">
+    		<a class="footlist foot_active" href="../index.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>课程首页</span>
+    		</a>
+    		<a class="footlist" href="wxaudio/audioindex.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>音频</span>
+    		</a>
+    		<a class="footlist" href="wxfp/wxfpindex.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>教育扶贫</span>
+    		</a>
+    		<a class="footlist" href="spokesman/wxspokesman.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>代言人</span>
+    		</a>
+    		<a class="footlist" href="wxmaterial.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>个人中心</span>
+    		</a>
+    		
+    	</div>
+    	
+    </footer>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="../jscript/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="../js/wxpublic.js"></script>
+<script type="text/javascript" src="../dist/js/LAreaData1.js"></script>
+<script type="text/javascript" src="../dist/js/LAreaData2.js"></script>
+<script type="text/javascript" src="../dist/js/LArea.js"></script>
+<script type="text/javascript" src="../js/wxmaterial.js"></script>
+<script type="text/javascript">
+	
+	//三级联动
+	/*
+	var area1 = new LArea();
+    area1.init({
+        'trigger': '#demo1', //触发选择控件的文本框，同时选择完毕后name属性输出到该位置
+        'valueTo': '#value1', //选择完毕后id属性输出到该位置
+        'keys': {
+            id: 'id',
+            name: 'name'
+        }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
+        'type': 1, //数据源类型
+        'data': LAreaData //数据源
+    });
+    area1.value=[1,13,3];//控制初始位置，注意：该方法并不会影响到input的value
+    */
+    
+    
+//  var area2 = new LArea();
+//  area2.init({
+//      'trigger': '#demo2',
+//      'valueTo': '#value2',
+//      'keys': {
+//          id: 'value',
+//          name: 'text'
+//      },
+//      'type': 2,
+//      'data': [provs_data, citys_data, dists_data]
+//  });
+   
+   
+   
+</script>

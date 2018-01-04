@@ -1,0 +1,169 @@
+@rem:50rem;
+html,body{
+    height: 100%;
+}
+.wx_wrap{
+    background: #e5e5e5;
+    min-height: 100%;
+    padding-top: 0;
+}
+.my_mater{
+    width: 750/@rem;
+    height: auto;
+    padding-top: 30/@rem; 
+    
+    .rows{
+        width: 100%;
+        height: 89/@rem;
+        background: #fff;
+        border-bottom: 1/@rem solid #e5e5e5;
+        padding: 0 30/@rem;
+        position: relative;
+        div{
+            width: 690/@rem;
+            height: 88/@rem;
+            position: absolute;
+            left: 30/@rem;
+            top: 0;
+            z-index: 0;
+            b{
+                float: left;
+                width: 150/@rem;
+                height: 88/@rem;
+                padding-top: 20/@rem;
+                font-size: 34/@rem;
+                color: #000;
+                span{
+                    color: #D81E06;
+                    font-size: 34/@rem;
+                }
+                strong{
+                    display: none;
+                    color: #D81E06;
+                    font-size: 20/@rem;
+                    height: 30/@rem;
+                    line-height: 30/@rem;
+                }
+                
+            }
+            p{
+                float: left;
+                width: 484/@rem;
+                height: 88/@rem;
+                padding: 20/@rem 0; 
+                font-size: 34/@rem;
+                color: #888;
+                text-align: right;
+                input{
+                    float: left;
+                    border: 0;
+                    width: 100%;
+                    height: 48/@rem;
+                    line-height: 48/@rem;
+                    font-size: 34/@rem;
+                    color: #888;
+                    text-align: right;
+                    -webkit-appearance: none;
+                }
+            }
+            i{
+                float: right;
+                margin-top: 30/@rem;
+                width: 16/@rem;
+                height: 26/@rem;
+                background-image: url(../img/icon/wxicon.png);
+                background-size: 242/@rem 698/@rem;
+                -webkit-background-size: 242/@rem 698/@rem;
+                background-position: -84/@rem -102/@rem;
+            }
+        }
+        .txts,.selects{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 88/@rem;
+            opacity: 0;
+            -webkit-opacity: 0;
+            z-index: 5;
+        }
+        .txts{
+            .map_select{
+                width: 100%;
+                height: 88/@rem;
+                position: relative;
+                select{
+                    width: 100%;
+                    height: 88/@rem;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                select:nth-child(1){
+                    z-index: 12;
+                }
+                select:nth-child(2){
+                    z-index: 11;
+                }
+                select:nth-child(3){
+                    z-index: 10;
+                }
+                select.map_active{
+                    z-index: 20;
+                }
+                
+            }
+            
+        }
+        
+    }
+    .first_rows{
+        border: 0;
+        height: 88/@rem;
+        margin-bottom: 30/@rem;
+    }
+    .last_rows{
+        margin-bottom: 60/@rem;
+    }
+    .mater_btn{
+        width: 670/@rem;
+        height: 94/@rem;
+        background: #d21213;
+        border: 2px solid #d21213;
+        border-radius: 10/@rem; 
+        -webkit-border-radius: 10/@rem;
+        font-size: 36/@rem;
+        color: #fff;
+        margin-left: 40/@rem;
+        -webkit-appearance: none;
+    }
+    .error{
+        height: 116/@rem;
+        div{
+            height: 116/@rem;
+            b{
+                height: 116/@rem;
+                strong{
+                    display: block;
+                    float: left;
+                    width:100%;
+                }
+            } 
+            p{
+                height: 116/@rem;
+                padding: 34/@rem 0;
+                input{
+                    height: 48/@rem;
+                    line-height: 48/@rem;
+                }
+            }
+            i{
+                margin-top: 46/@rem;
+            }
+        } 
+        .txts{
+            height: 116/@rem;
+        }
+    }      
+    
+}

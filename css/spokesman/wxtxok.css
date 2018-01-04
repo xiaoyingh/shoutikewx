@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  padding-top: 2.8rem;
+}
+.top {
+  width: 5.2rem;
+  height: 5.2rem;
+  margin: 0 auto;
+}
+.top img {
+  width: 5.2rem;
+  height: 5.2rem;
+}
+.section {
+  width: 15rem;
+  height: auto;
+}
+.section h5,
+.section h6 {
+  width: 100%;
+  padding: 0 1.6rem;
+  height: 1.76rem;
+  font-size: 0.68rem;
+  color: #000;
+}
+.section h5 {
+  line-height: 2.4rem;
+}
+.section h6 {
+  height: 2.24rem;
+  line-height: 2.24rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.24rem;
+}
+.section h6 em {
+  float: left;
+  height: 2.24rem;
+  line-height: 2.24rem;
+  font-size: 1.6rem;
+  color: #090909;
+}
+.section h6 input {
+  float: left;
+  width: 80%;
+  height: 2.24rem;
+  border: 0;
+  outline: none;
+  font-size: 1.6rem;
+  color: #090909;
+}
+.section h6 .jeclear {
+  float: right;
+  width: 0.72rem;
+  height: 0.72rem;
+  margin-top: 0.76rem;
+  background-image: url(../../img/wxabout/txclear.png);
+  background-size: 0.72rem 0.72rem;
+  -webkit-background-size: 0.72rem 0.72rem;
+}
+.section .txje {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.4rem 1.6rem;
+  border-top: 0.02rem solid #e9e9e9;
+  margin-bottom: 2.2rem;
+}
+.section .txje .txcon {
+  width: 100%;
+  height: 0.84rem;
+}
+.section .txje .txcon .txpic {
+  float: left;
+  width: 9rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  font-size: 0.6rem;
+  color: #888;
+}
+.section .txje .txcon .tx_error {
+  float: left;
+  display: none;
+  width: 8rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  color: #E64340;
+  font-size: 0.6rem;
+}
+.section .txje .txcon .txje_btn {
+  float: right;
+  padding-left: 0.2rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  color: #4B6EF4;
+  font-size: 0.6rem;
+}
+.section p {
+  width: 7.2rem;
+  height: 1.4rem;
+  margin: 0 auto;
+  line-height: 1.32rem;
+  border: 0.04rem solid #1eb609;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  font-size: 0.64rem;
+  color: #1EB609;
+  text-align: center;
+}

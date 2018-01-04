@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>手提课</title>
+<meta http-equiv="content-type" content="text/htm" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="../../css/wxpublic/wxpublic.css" />
+<link rel="stylesheet" type="text/css" href="../../css/spokesman/wxspokesman.css"/>
+<link rel="stylesheet" type="text/css" href="../../css/wxpublic/wxfooter.css"/>
+</head>
+<body>
+<div class="wx_wrap">
+	<div class="myspoke">
+		<div class="myimg">
+			<p><img src=""/></p>
+			<h3>猫了个牛牛</h3>
+		</div>
+	    <div class="notspoke">
+	    	<a href="wxspokephone.html">
+		    	<b>未成为代言人</b>
+		    	<i></i>
+	    	</a>
+	    </div>   
+	</div>
+	<div class="mysyxq">
+		<div class="xqleft">
+			<p>可提现收益</p>
+			<p class="cash">￥20.00</p>
+		</div>
+		<div class="xqright" id="mytx" data-onoff="true">
+			<span>立即去提现</span>
+		    <i></i>
+		</div>
+	</div>
+	<div class="mysyxq">
+		<div class="xqleft">
+			<p>暂不可提现收益</p>
+			<p>￥10.00</p>
+		</div>
+		<div class="xqright">
+			<p>已提现收益</p>
+			<p>￥4.67</p>
+		</div>
+	</div>
+	<div class="spokelist">
+		<ul>
+			<li>
+				<a href="wxmydaiyr.html">
+					<b>查看学员名单</b>
+				    <i></i>
+				</a> 
+			</li>
+			<li>
+				<a href="wxtxgz.html">
+					<b>提现规则</b>
+				    <i></i>
+				</a>
+			</li>
+			<li>
+				<a href="wxaboutspokesman.html">
+					<b>关于代言人</b>
+				    <i></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+    <!--footer 导航-->
+    <footer class="footer">
+    	<div class="foot_nav">
+    		<a class="footlist foot_active" href="../../index.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>课程首页</span>
+    		</a>
+    		<a class="footlist" href="../wxaudio/audioindex.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>音频</span>
+    		</a>
+    		<a class="footlist" href="../wxfp/wxfpindex.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>教育扶贫</span>
+    		</a>
+    		<a class="footlist" href="wxspokesman.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>代言人</span>
+    		</a>
+    		<a class="footlist" href="../wxmaterial.html">
+    			<i class="nav_icon"><b></b></i>
+    			<span>个人中心</span>
+    		</a>
+    	</div>
+    	
+    </footer>
+</div>	
+</body>
+</html>
+<script type="text/javascript" src="../../jscript/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="../../js/wxpublic.js"></script>
+<script type="text/javascript">
+var jssec = 3;
+var myDate = new Date();
+var $date = myDate.getDate();
+//FastClick解决延迟300ms
+window.addEventListener('load', function () {  
+    FastClick.attach(document.body);  
+}, false); 
+$('#mytx').on('click',function(){
+//	if("false" == $(this).attr("data-onoff")){
+//		return false;
+//	}
+	if($date>25&&$date<31){
+		var money=$('.cash').html().split("￥")[1];
+		alert(money+'可以提现');
+//		window.location.href= 'wxtxok.html';
+	}else{
+		alert('每月20-25日为出账日期，请在规定的日期内提现');
+	}
+//	changes();
+});
+
+
+function changes() {
+	//如果过了3秒后 按钮的disabled为 true  即可再点 否则 为false 不能再点
+    jssec--;
+    if (jssec > -1) {
+        timer = setTimeout('changes()', 1000);//调用自身实现
+        $('#mytx').attr("data-onoff", 'false');
+    }
+    else {
+        $('#mytx').attr("data-onoff", 'true');
+        clearTimeout(timer);
+        jssec = 3;
+    }
+}
+</script>

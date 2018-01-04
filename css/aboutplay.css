@@ -1,0 +1,19 @@
+html,
+body,
+.wx_wrap {
+  height: 100%;
+}
+.video_wrap {
+  width: 15rem;
+  height: 100%;
+}
+.banner_video {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+.banner_video .video2 {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}

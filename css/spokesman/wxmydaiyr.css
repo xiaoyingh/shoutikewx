@@ -1,0 +1,71 @@
+.wx_wrap {
+  padding-top: 0;
+}
+.header {
+  width: 15rem;
+  height: 1.78rem;
+  padding-left: 0.6rem;
+}
+.header h5 {
+  width: 14.4rem;
+  height: 1.78rem;
+  padding-top: 0.68rem;
+  padding-right: 0.6rem;
+  border-bottom: 0.02rem solid #e9e9e9;
+}
+.header h5 span {
+  float: left;
+  height: 1.08rem;
+  padding: 0 0.04rem;
+  font-size: 0.52rem;
+  color: #999;
+}
+.header h5 span:last-child {
+  float: right;
+}
+.section {
+  width: 15rem;
+  height: auto;
+  padding-left: 0.6rem;
+}
+.section ul {
+  width: 14.4rem;
+  height: auto;
+}
+.section ul li {
+  width: 14.4rem;
+  height: 1.78rem;
+  padding-right: 0.6rem;
+  border-bottom: 0.02rem solid #e9e9e9;
+}
+.section ul li p {
+  float: left;
+  height: 1.76rem;
+  margin: 0;
+}
+.section ul li p b {
+  float: left;
+  width: 1.16rem;
+  height: 1.76rem;
+  padding: 0.3rem 0;
+  margin-right: 0.4rem;
+}
+.section ul li p b img {
+  width: 1.16rem;
+  height: 1.16rem;
+}
+.section ul li p span {
+  float: left;
+  width: 8rem;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  font-size: 0.68rem;
+  color: #000;
+}
+.section ul li em {
+  float: right;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  font-size: 0.68rem;
+  color: #888;
+}

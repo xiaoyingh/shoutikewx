@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+.wx_topnav .texts {
+  padding-left: 3.74rem;
+}
+.wx_topnav .member {
+  height: 1.44rem;
+  margin-top: -0.1rem;
+}
+.wx_topnav .member a {
+  height: 1.44rem;
+  font-size: 0.52rem;
+  line-height: 0.72rem;
+  padding: 0 0.1rem;
+}

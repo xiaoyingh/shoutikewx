@@ -1,0 +1,81 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  background: #e5e5e5;
+  min-height: 100%;
+  padding-top: 1.6rem;
+}
+.phone_con {
+  width: 100%;
+  height: auto;
+}
+.phone_con form ul {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 2rem;
+}
+.phone_con form ul li {
+  width: 100%;
+  height: 1.78rem;
+  border-bottom: 0.02rem solid #e5e5e5;
+}
+.phone_con form ul li div {
+  width: 100%;
+  height: 1.76rem;
+  padding: 0.4rem 0;
+}
+.phone_con form ul li div input {
+  border: 0;
+  width: 100%;
+  height: 0.96rem;
+  font-size: 0.68rem;
+  color: #B2B2B2;
+  padding-left: 0.6rem;
+  -webkit-appearance: none;
+}
+.phone_con form ul .phone_error {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background: #e5e5e5;
+}
+.phone_con form ul .phone_error p {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.phone_con form ul .phone_yzm div {
+  float: left;
+  width: 11rem;
+}
+.phone_con form ul .phone_yzm div .code_yzm {
+  width: 11rem;
+  height: 0.96rem;
+}
+.phone_con form ul .phone_yzm .get_yzm {
+  float: left;
+  width: 4rem;
+  height: 1.76rem;
+  padding: 0.4rem 0;
+  color: #1EB609;
+  font-size: 0.68rem;
+  text-align: left;
+}
+.phone_con form .error {
+  color: #d21213;
+  font-size: 0.6rem;
+  padding-left: 0.6rem;
+}
+.phone_con form .phone_btn {
+  border: 0;
+  width: 13.4rem;
+  height: 1.88rem;
+  margin-left: 0.8rem;
+  background: #D21213;
+  color: #fff;
+  font-size: 0.72rem;
+  border: 0.04rem solid #d21213;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -webkit-appearance: none;
+}

@@ -1,0 +1,86 @@
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+body {
+  font-family: "微软雅黑";
+  font-size: 0.24rem;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+li,
+dl,
+dt,
+dd,
+input {
+  padding: 0;
+  margin: 0;
+}
+em,
+i {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-weight: normal;
+}
+ul,
+li,
+ol,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+/*文本超出显示省略号*/
+.ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.chrominput {
+  -webkit-appearance: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.wx_wrap {
+  width: 15rem;
+  min-height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

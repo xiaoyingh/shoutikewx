@@ -1,0 +1,160 @@
+html,
+body {
+  height: 100%;
+}
+.wx_wrap {
+  padding-top: 0.4rem;
+  background: #e9e9e9;
+}
+.wx_wrap i {
+  float: right;
+  width: 0.32rem;
+  height: 0.52rem;
+  background-image: url(../../img/icon/wxicon.png);
+  background-size: 4.84rem 13.96rem;
+  -webkit-background-size: 4.84rem 13.96rem;
+  background-position: -1.68rem -2.04rem;
+}
+.myspoke {
+  width: 100%;
+  height: 3.4rem;
+  padding: 0.5rem 0.6rem;
+  background: #fff;
+  margin-bottom: 0.4rem;
+}
+.myspoke .myimg {
+  width: 8.7rem;
+  height: 120 rem;
+  float: left;
+}
+.myspoke .myimg p {
+  float: left;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.myspoke .myimg p img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+.myspoke .myimg h3 {
+  float: left;
+  padding-left: 0.6rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  font-size: 0.64rem;
+  color: #000;
+}
+.myspoke .notspoke {
+  width: 5rem;
+  height: 2.4rem;
+  float: right;
+}
+.myspoke .notspoke a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.myspoke .notspoke b {
+  width: 4.68rem;
+  height: 2.4rem;
+  line-height: 2.4rem;
+  float: left;
+  text-align: right;
+  color: #666;
+  font-size: 0.56rem;
+}
+.myspoke .notspoke i {
+  margin-top: 0.9rem;
+}
+.mysyxq {
+  width: 100%;
+  height: 3.4rem;
+  padding: 0.6rem 0.6rem 0.6rem 1.2rem;
+  background: #fff;
+  margin-bottom: 0.4rem;
+}
+.mysyxq .xqleft {
+  float: left;
+  width: 6.3rem;
+  height: 2.2rem;
+  border-right: 1px solid #e9e9e9;
+}
+.mysyxq .xqleft p {
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.68rem;
+  color: #000;
+}
+.mysyxq .xqleft p:first-child {
+  margin-bottom: 0.28rem;
+}
+.mysyxq .xqright {
+  width: 6.9rem;
+  height: 2.2rem;
+  float: right;
+}
+.mysyxq .xqright p {
+  float: left;
+  width: 6rem;
+  height: 0.96rem;
+  padding-left: 1.2rem;
+  line-height: 0.96rem;
+  font-size: 0.68rem;
+  color: #000;
+}
+.mysyxq .xqright p:first-child {
+  margin-bottom: 0.28rem;
+}
+.mysyxq .xqright span {
+  float: left;
+  width: 6rem;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  font-size: 0.56rem;
+  text-align: right;
+  margin-top: 0.6rem;
+  color: #666;
+}
+.mysyxq .xqright i {
+  margin-top: 0.8rem;
+}
+.spokelist {
+  width: 100%;
+  height: 5.28rem;
+  background: #fff;
+}
+.spokelist ul {
+  width: 100%;
+  height: 5.28rem;
+  padding-left: 0.6rem;
+}
+.spokelist ul li {
+  width: 100%;
+  height: 1.78rem;
+  border-bottom: 1px solid #e9e9e9;
+  padding-right: 0.6rem;
+}
+.spokelist ul li a {
+  display: block;
+  width: 100%;
+  height: 1.76rem;
+}
+.spokelist ul li a b {
+  float: left;
+  height: 1.76rem;
+  line-height: 1.76rem;
+  font-size: 0.68rem;
+  color: #000;
+}
+.spokelist ul li a i {
+  margin-top: 0.6rem;
+}
+.spokelist ul li:last-child {
+  height: 1.76rem;
+  line-height: 1.76rem;
+  border-bottom: none;
+}
