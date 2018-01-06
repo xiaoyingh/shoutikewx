@@ -13,36 +13,34 @@
 <div class="wx_wrap">
 	<div class="myspoke">
 		<div class="myimg">
-			<p><img src=""/></p>
-			<h3>猫了个牛牛</h3>
+			<div class="imgicon">
+				<p><img src=""/></p>
+			    <h3 class="ellipsis">猫了个牛牛</h3>
+			    <a href="wxspokephone.html">立即成为代言人</a>
+			</div>
+			<div class="txok">
+				<p>可提现收益（元）</p>
+				<h5>￥20.00</h5>
+			</div>
+			<div class="txover">
+				<div class="txleft">
+					<p>暂不可提现收益</p>
+				    <p>￥10.00</h5>
+				</div>
+				<div class="txright">
+					<p>已提现收益</p>
+				    <p>￥40.00</h5>
+				</div>
+			</div>
 		</div>
-	    <div class="notspoke">
-	    	<a href="wxspokephone.html">
-		    	<b>未成为代言人</b>
-		    	<i></i>
-	    	</a>
-	    </div>   
+	    
+	    <div class="mysyxq">
+			<div class="nowtx" id="mytx">立即提现</div>
+			<div class="mydd" id="txorder"><a href="wxtxorder.html">订单明细</a></div>
+		</div>
+		
 	</div>
-	<div class="mysyxq">
-		<div class="xqleft">
-			<p>可提现收益</p>
-			<p class="cash">￥20.00</p>
-		</div>
-		<div class="xqright" id="mytx" data-onoff="true">
-			<span>立即去提现</span>
-		    <i></i>
-		</div>
-	</div>
-	<div class="mysyxq">
-		<div class="xqleft">
-			<p>暂不可提现收益</p>
-			<p>￥10.00</p>
-		</div>
-		<div class="xqright">
-			<p>已提现收益</p>
-			<p>￥4.67</p>
-		</div>
-	</div>
+	
 	<div class="spokelist">
 		<ul>
 			<li>
@@ -103,7 +101,7 @@ var myDate = new Date();
 var $date = myDate.getDate();
 //FastClick解决延迟300ms
 window.addEventListener('load', function () {  
-    FastClick.attach(document.body);  
+    //FastClick.attach(document.body);  
 }, false); 
 $('#mytx').on('click',function(){
 //	if("false" == $(this).attr("data-onoff")){

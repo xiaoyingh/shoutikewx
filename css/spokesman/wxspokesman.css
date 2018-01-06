@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 .wx_wrap {
-  padding-top: 0.4rem;
+  padding-top: 0;
   background: #e9e9e9;
 }
 .wx_wrap i {
@@ -17,110 +17,128 @@ body {
 }
 .myspoke {
   width: 100%;
-  height: 3.4rem;
-  padding: 0.5rem 0.6rem;
-  background: #fff;
+  height: 13.8rem;
+  padding-top: 5.52rem;
+  background: #2D2E32;
   margin-bottom: 0.4rem;
+  position: relative;
 }
 .myspoke .myimg {
-  width: 8.7rem;
-  height: 120 rem;
-  float: left;
+  width: 14.2rem;
+  height: 10.32rem;
+  padding: 0.8rem 1rem 0;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.4rem;
+  background: #fff;
+  box-shadow: 0 0.02rem 0.3rem 0.06rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0.02rem 0.3rem 0.06rem rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0.02rem 0.3rem 0.06rem rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0.02rem 0.3rem 0.06rem rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0.02rem 0.3rem 0.06rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
 }
-.myspoke .myimg p {
+.myspoke .myimg .imgicon {
+  width: 100%;
+  height: 3rem;
+  margin-bottom: 0.7rem;
+}
+.myspoke .myimg .imgicon p {
+  width: 3rem;
+  height: 3rem;
   float: left;
-  width: 2.4rem;
-  height: 2.4rem;
+  margin-right: 0.6rem;
+}
+.myspoke .myimg .imgicon p img {
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   -webkit-border-radius: 50%;
 }
-.myspoke .myimg p img {
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-}
-.myspoke .myimg h3 {
+.myspoke .myimg .imgicon h3 {
   float: left;
-  padding-left: 0.6rem;
-  height: 2.4rem;
-  line-height: 2.4rem;
-  font-size: 0.64rem;
-  color: #000;
+  padding-top: 1.22rem;
+  width: 3.8rem;
+  font-size: 0.56rem;
+  color: #666;
 }
-.myspoke .notspoke {
-  width: 5rem;
-  height: 2.4rem;
+.myspoke .myimg .imgicon a {
   float: right;
+  margin-top: 0.9rem;
+  padding: 0.32rem 0.4rem;
+  color: #fff;
+  font-size: 0.56rem;
+  background: #DF5555;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
 }
-.myspoke .notspoke a {
+.myspoke .myimg .txok {
+  width: 100%;
+  height: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+.myspoke .myimg .txok p {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.56rem;
+  color: #333;
+}
+.myspoke .myimg .txok h5 {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.88rem;
+  color: #333;
+}
+.myspoke .myimg .txover {
+  width: 100%;
+  height: 2.4rem;
+}
+.myspoke .myimg .txover div {
+  width: 50%;
+  height: 2.4rem;
+  float: left;
+}
+.myspoke .myimg .txover div p {
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  color: #666;
+  font-size: 0.56rem;
+}
+.myspoke .myimg .txover .txright {
+  padding-left: 12%;
+}
+.myspoke .mysyxq {
+  width: 15rem;
+  height: 8.28rem;
+  background: #fff;
+  padding-top: 5.98rem;
+}
+.myspoke .mysyxq div {
+  float: left;
+  width: 6.8rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  font-size: 0.64rem;
+  color: #E64340;
+  border: 0.02rem solid #e64340;
+  border-radius: 0.08rem;
+  -webkit-border-radius: 0.08rem;
+}
+.myspoke .mysyxq div a {
   display: block;
   width: 100%;
-  height: 100%;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  color: #E64340;
 }
-.myspoke .notspoke b {
-  width: 4.68rem;
-  height: 2.4rem;
-  line-height: 2.4rem;
-  float: left;
-  text-align: right;
-  color: #666;
-  font-size: 0.56rem;
-}
-.myspoke .notspoke i {
-  margin-top: 0.9rem;
-}
-.mysyxq {
-  width: 100%;
-  height: 3.4rem;
-  padding: 0.6rem 0.6rem 0.6rem 1.2rem;
-  background: #fff;
-  margin-bottom: 0.4rem;
-}
-.mysyxq .xqleft {
-  float: left;
-  width: 6.3rem;
-  height: 2.2rem;
-  border-right: 1px solid #e9e9e9;
-}
-.mysyxq .xqleft p {
-  height: 0.96rem;
-  line-height: 0.96rem;
-  font-size: 0.68rem;
-  color: #000;
-}
-.mysyxq .xqleft p:first-child {
-  margin-bottom: 0.28rem;
-}
-.mysyxq .xqright {
-  width: 6.9rem;
-  height: 2.2rem;
-  float: right;
-}
-.mysyxq .xqright p {
-  float: left;
-  width: 6rem;
-  height: 0.96rem;
-  padding-left: 1.2rem;
-  line-height: 0.96rem;
-  font-size: 0.68rem;
-  color: #000;
-}
-.mysyxq .xqright p:first-child {
-  margin-bottom: 0.28rem;
-}
-.mysyxq .xqright span {
-  float: left;
-  width: 6rem;
-  height: 0.96rem;
-  line-height: 0.96rem;
-  font-size: 0.56rem;
-  text-align: right;
-  margin-top: 0.6rem;
-  color: #666;
-}
-.mysyxq .xqright i {
-  margin-top: 0.8rem;
+.myspoke .mysyxq .nowtx {
+  margin-left: 0.4rem;
+  margin-right: 0.6rem;
 }
 .spokelist {
   width: 100%;
